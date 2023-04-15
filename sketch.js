@@ -57,10 +57,9 @@ function draw() {
     line(pose.nose.x, pose.nose.y , midshoulderX, midshoulderY);
     
   //drawing big circle for head around nose
-  //the size of head should be relative to the distance between eyes
     fill(255,0,0);
-    let scale = dist(pose.leftEye.x, pose.leftEye.y, pose.rightEye.x, pose.rightEye.y)
-    ellipse(pose.nose.x, pose.nose.y , 3*scale);
+    // let scale = dist(pose.leftEye.x, pose.leftEye.y, pose.rightEye.x, pose.rightEye.y)
+    ellipse(pose.nose.x, pose.nose.y , 100);
    
   }
 }
