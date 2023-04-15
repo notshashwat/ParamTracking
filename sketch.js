@@ -28,7 +28,7 @@ function setup() {
 
 function draw() {
   background(220);
-  tint(255, 70)
+  tint(255, 150)
   image(video, 0, 0);
   if(pose){
     //if there is a pose detected by poseNet then draw the stick figure corresponding to it.

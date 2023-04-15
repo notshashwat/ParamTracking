@@ -2,8 +2,12 @@
 html, body {
     height: 100%;
   }
-  
-  body {
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+ #p5canvas {
     margin: 0;
     display: flex;
   
@@ -12,4 +16,7 @@ html, body {
   
     /* This centers our sketch vertically. */
     align-items: center;
+    
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
   }
